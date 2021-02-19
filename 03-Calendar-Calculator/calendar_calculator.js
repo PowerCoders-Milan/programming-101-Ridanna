@@ -1,6 +1,64 @@
 //insert your pseudocode below
 /*
-here
+*create 2 variable
+*First variable days of the months and the other is number of the months.
+*add the sum of the last months up-to-date. 
+*make list of variable to sums which are created
+*The variable should be added with sums required
+*for every month I define, I will check how many day are there before 
+then the month selected will be equal to the sum of earlier months eg. 31 + 28.
+*I will also checked the name of the month against the name that i have.
+*calculate the asked number by adding the day of the month with the day from the month
+print:
+*Example
+*variable = April
+*variable = 4
+*days before = 31 + 28 + 31 =
+*result = 90 + 4 =94
+print:
+
 */
 
 //Insert your code below
+var Months, day, result;
+
+
+Months = 'April';
+day = 4;
+if (Months == 'January') {
+  result = 0 + day;
+}
+if (Months == 'February') {
+  result = 31 + day;
+}
+if (Months == 'March') {
+  result = 59 + day;
+}
+if (Months == 'April') {
+  result = 90 + day;
+}
+if (Months == 'May') {
+  result = 120 + day;
+}
+if (Months == 'June') {
+  result = 150 + day;
+}
+if (Months == 'July') {
+  result = 180 + day;
+}
+if (Months == 'August') {
+  result = 211 + day;
+}
+if (Months == 'September') {
+  result = 242 + day;
+}
+if (Months == 'October') {
+  result = 272 + day;
+}
+if (Months == 'November') {
+  result = 303 + day;
+}
+if (Months == 'December') {
+  result = 333 + day;
+}
+window.alert(result);
