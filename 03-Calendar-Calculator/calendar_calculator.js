@@ -69,7 +69,7 @@ create a text with list of random letter for password
 create list of random integer number between specific set like 1-20
 create list of random special character to be integrated with text
 choose random integer number of special character selection
-print a collection of mixed password 
+print a collection of mixed password
 /* code below*/
 var password;
 
