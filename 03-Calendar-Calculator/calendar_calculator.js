@@ -62,3 +62,21 @@ if (Months == 'December') {
   result = 333 + day;
 }
 window.alert(result);
+
+/*code for password generator*/
+var password;
+
+function mathRandomInt(a, b) {
+  if (a > b) {
+    // Swap a and b to ensure a is smaller.
+    var c = a;
+    a = b;
+    b = c;
+  }
+  return Math.floor(Math.random() * (b - a + 1) + a);
+}
+
+
+window.alert(['ftherofkjbdfskjgòuhkjsbdkjbf'.charAt((mathRandomInt(1, 20) - 1)),mathRandomInt(10000, 99999),'.&%*$£!)*&%$/'.charAt((mathRandomInt(1, 10) - 1))].join(''));
+
+password;
